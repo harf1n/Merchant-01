@@ -16,7 +16,8 @@ public class App {
     static String infoProduct;
 
     public static void main(String[] args) {
-
+        initVars();
+        showData(processData());
     }
 
     private static void initVars() {
