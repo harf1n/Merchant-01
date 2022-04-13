@@ -46,4 +46,7 @@ public class App {
         roundBonus = Rounder.roundValue(merchantA.calcBonus(sales));
         return infoMerchant + infoProduct + "\nБонус (грн.): " + roundBonus;
     }
+    private static void showData(String output) {
+        System.out.println(output);
+    }
 }
