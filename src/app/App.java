@@ -12,4 +12,8 @@ public class App {
     static MerchantA merchantA;
     static String infoMerchant;
     static String infoProduct;
+
+    public static void main(String[] args) {
+
+    }
 }
